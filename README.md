@@ -31,7 +31,7 @@ Utilisation
 Après l'installation, l'extension fonctionnera automatiquement en arrière-plan. Aucune configuration supplémentaire n'est nécessaire. Profitez d'une navigation sans publicités intrusives !
 
 Support
-Pour toute question, suggestion ou problème technique, veuillez nous contacter à support@wadsblock.com.
+Pour toute question, suggestion ou problème technique, veuillez nous contacter à support@wadsblock.com ou me contacter directement ici wharklya@gmail.com.
 
 Contribuer
 Nous accueillons favorablement les contributions de la communauté ! Si vous souhaitez contribuer au développement de WAdSBlock, veuillez consulter notre guide de contribution pour plus de détails.
