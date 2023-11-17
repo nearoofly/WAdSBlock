@@ -36,8 +36,9 @@
     #toggleButton.connected:hover {
       background-color: #45a049;
     }
-    #defaultImage {
-      width: 30px; /* Réduire la taille de l'image */
+    .connected-img {
+      display: none; /* Masquer l'image par défaut */
+      width: 30px;
       height: 30px;
       margin-bottom: 10px;
     }
@@ -45,8 +46,8 @@
 </head>
 <body>
   <h4>BlockAds Extension</h4>
-  <img src="images/Wilock_icon1.png" alt="Extension Icon" id="defaultImage">
-  <img src="images/Wilock_icon2.png" alt="Connected Icon" class="connected-img">
+  <img src="images/Wilock_icon.png" alt="Extension Icon" id="defaultImage" width="50" height="80">
+  <img src="images/Wilock.webp" alt="Connected Icon" class="connected-img" width="90" height="90">
 
   <button id="toggleButton">Disconnected</button>
 
