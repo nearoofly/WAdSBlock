@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BlockAds Popup</title>
+  <style>
+    body {
+      width: 200px;
+      height: 150px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h4 {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto; /* Centrer le bouton */
+    }
+    #toggleButton {
+      background-color: #008CBA; /* Couleur bleue pour Disconnected */
+    }
+    #toggleButton:hover {
+      background-color: #006080;
+    }
+    #toggleButton.connected {
+      background-color: #4CAF50; /* Couleur verte pour Connected */
+    }
+    #toggleButton.connected:hover {
+      background-color: #45a049;
+    }
+    #defaultImage {
+      width: 30px; /* Réduire la taille de l'image */
+      height: 30px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h4>BlockAds Extension</h4>
+  <img src="images/Wilock_icon1.png" alt="Extension Icon" id="defaultImage">
+  <img src="images/Wilock_icon2.png" alt="Connected Icon" class="connected-img">
+
+  <button id="toggleButton">Disconnected</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
